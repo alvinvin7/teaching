@@ -1,5 +1,9 @@
 
 #include <stdio.h>
+
+// Made by Alvin Fujito
+// March 2020
+
 /* Function
 
 So, what is a function? 
