@@ -1,4 +1,5 @@
 
+#include <stdio.h>
 /* Function
 
 So, what is a function? 
@@ -40,9 +41,9 @@ code */
 
 //returns 1 + 2 + ... + num
 int sum_from_one_to_num(int num) {
-    int i = 0;
+    int i = 1;
     int sum = 0; 
-    while (i < num) {
+    while (i <= num) {
         sum += i;
         i++;
     }
@@ -57,13 +58,13 @@ int not_real_main_0(void) {
     int num;
     scanf("%d", &num);
 
-    int i = 0;
+    int i = 1;
     int sum = 0; 
-    while (i < num) {
+    while (i <= num) {
         sum += i;
         i++;
     }
-    printf("The sum from 1 to %d is %d", num, sum);
+    printf("The sum from 1 to %d is %d\n", num, sum);
 
     return 0;
 }
@@ -79,13 +80,13 @@ int not_real_main_1(void) {
     int scanf_value = scanf("%d", &num);
     while (scanf_value == 1) {
 
-        int i = 0;
+        int i = 1;
         int sum = 0; 
-        while (i < num) {
+        while (i <= num) {
             sum += i;
             i++;
-        
-        printf("The sum from 1 to %d is %d", num, sum);
+        }
+        printf("The sum from 1 to %d is %d\n", num, sum);
 
         // when user stops scanning (ctrl + d), scanf will return
         // 0 and hence it will break the while loop
@@ -111,7 +112,7 @@ int main(void) {
     while (scanf_value == 1) {
 
         int sum = sum_from_one_to_num(num);
-        printf("The sum from 1 to %d is %d", num, sum);
+        printf("The sum from 1 to %d is %d\n", num, sum);
 
         scanf_value = scanf("%d", &num);
     }
