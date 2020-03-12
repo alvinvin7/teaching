@@ -1,9 +1,3 @@
-
-#include <stdio.h>
-
-// Made by Alvin Fujito
-// March 2020
-
 // Made by Alvin Fujito
 // March 2020
 
@@ -12,6 +6,8 @@
 //                together. Contact me if there is any error.
 //                
 //                Please only use this educationally.
+
+#include <stdio.h>
 
 /* Function
 
