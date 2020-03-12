@@ -3,7 +3,13 @@
 // Made by Alvin Fujito
 // March 2020
 
-/* Arrays
+// Disclaimer: This is not official 1511 material. 
+// Author's Note: A lot of effort has been made in putting this 
+//                together. Contact me if there is any error.
+//                
+//                Please only use this educationally.
+
+/* Arrays (Part 1)
 
 We learned what a variable is. Array is basically a collection of 
 variables of the same type. 

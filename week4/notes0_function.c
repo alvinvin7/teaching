@@ -4,6 +4,15 @@
 // Made by Alvin Fujito
 // March 2020
 
+// Made by Alvin Fujito
+// March 2020
+
+// Disclaimer: This is not official 1511 material. 
+// Author's Note: A lot of effort has been made in putting this 
+//                together. Contact me if there is any error.
+//                
+//                Please only use this educationally.
+
 /* Function
 
 So, what is a function? 
