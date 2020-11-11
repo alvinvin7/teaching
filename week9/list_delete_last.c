@@ -21,6 +21,8 @@ int main(int argc, char *argv[]) {
 
     print(head);
 
+    // hasn't freed the whole list yet. Will have error when run
+    // --leak-check although list will be less
     return 0;
 }
 
