@@ -14,7 +14,7 @@
 // The head is considered the top of the stack
 struct stack_internals {
     struct stack_node *head;
-    int size;
+
 };
 
 struct stack_node {
@@ -27,7 +27,7 @@ Stack create_stack(void) {
     // Stack can be used in place of struct stack_internals *
     Stack new_stack = malloc(sizeof(struct stack_internals));
     new_stack->head = NULL;
-    new_stack->size = 0;    
+ 
     return new_stack;
 }
 //Free the given stack
