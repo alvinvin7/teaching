@@ -42,3 +42,31 @@ int minimum(struct node *head) {
         return head->data;
     }
 }
+
+
+
+
+//  print a linked list in this format:
+// 17 -> 34 -> 51 -> 68 -> X
+void print(struct node *head) {
+    struct node *n = head;
+    while (n != NULL) {
+        printf("%d -> ", n->data);
+        n = n->next;
+    }
+    printf("X\n");
+}
+
+
+// create linked list from array of strings
+struct node *strings_to_list(int len, char *strings[]) {
+    struct node *head = NULL;
+    for (int i = len - 1; i >= 0; i = i - 1) {
+        struct node *n = malloc(sizeof (struct node));
+        assert(n != NULL);
+        n->next = head;
+        n->data = atoi(strings[i]);
+        head = n;
+    }
+    return head;
+}
